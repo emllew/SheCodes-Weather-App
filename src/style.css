@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&display=swap');
+
 body {
-  font-family: "Playfair Display", serif;
+  font-family: 'Mulish', sans-serif;
   letter-spacing: 1px;
 }
 
@@ -14,7 +16,7 @@ h1 {
 
 ul {
   margin: 0;
-  color: #7d0633;
+  color: #ff5126;
   padding-bottom: 15px;
 }
 
@@ -36,7 +38,7 @@ hr {
 
 h6 {
   margin: 0;
-  color: #7d0633;
+  color: #ff5126;
   padding: 0px;
 }
 
@@ -50,8 +52,8 @@ h6 {
   max-width: 650px;
   margin: 0 auto;
   padding: 30px;
-  background: #fbdcc4;
-  border: 1px solid #dadde1;
+  background: #daebee;
+  border: 1px solid #b6d7de;
 }
 
 .overview {
@@ -68,7 +70,7 @@ h6 {
 
 .btn:hover {
   color: white;
-  background: #7d0633;
+  background: #ff5126;
   border: none;
 }
 
@@ -90,7 +92,7 @@ h6 {
 }
 
 .weather-temperature strong {
-  color: #7d0633;
+  color: #ff5126;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -100,17 +102,17 @@ h6 {
   position: relative;
   font-size: 16px;
   top: -34px;
-  color: #7d0633;
+  color: #ff5126;
 }
 
 .weather-temperature .active {
-  color: #7d0633;
+  color: #ff5126;
   cursor: default;
 }
 
 .weather-temperature .active:hover {
   text-decoration: none;
-  color: #7d0633;
+  color: #ff5126;
 }
 
 .current-weather-list {
@@ -140,7 +142,7 @@ h6 {
 
 .weather-forecast-temperature {
   text-align: center;
-  color: #7d0633;
+  color: #ff5126;
   font-size: 13px;
   font-weight: 400;
   height: auto;
